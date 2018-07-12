@@ -1,0 +1,5 @@
+language: none
+build:
+  ci:
+    - wget https://www.gutenberg.org/files/1342/1342-0.txt
+    - time cat 1342-0.txt
